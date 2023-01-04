@@ -55,3 +55,4 @@ def matrix_divided(matrix, div):
         len_e = len(elems)
 
     m = list(map(lambda x: list(map(lambda y: round(y / div, 2), x)), matrix))
+    return (m)

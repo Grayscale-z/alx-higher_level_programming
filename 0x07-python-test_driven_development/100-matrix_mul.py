@@ -92,3 +92,4 @@ def matrix_mul(m_a, m_b):
                 i1 += 1
         r1.append(r2)
 
+    return r1

@@ -31,3 +31,4 @@ void print_python_string(PyObject *p)
 	str = PyUnicode_AsEncodedString(p, "utf-8", "~E~");
 	printf("  length: %ld\n", PyUnicode_GET_SIZE(p));
 	printf("  value: %s\n", PyBytes_AsString(str));
+}
